@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="Jae-3d-Portfolio">
+  <meta property="og:description" content="이제원의 3D 포트폴리오">
+  <meta property="og:image" content="/src/assets/images/hero.jpg">
+
+  <title>Jae Lee | Portfolio</title>
+  <style>
+    body {
+      cursor: url('/src/assets/images/bgmouseicon.png'), auto;
+      font-family: 'Times New Roman', Timees, serif;
+    }
+  </style>
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    })(window.location);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
