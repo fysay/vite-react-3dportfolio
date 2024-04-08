@@ -131,6 +131,7 @@ export const projects = [
         name: 'MSU Cyber Cafe Project',
         description: 'Created a clear, visual prototype design of the new library/cyber cafe, based on user feedback collected from surveys, focus groups, and interviews.',
         link: 'https://docs.google.com/presentation/d/1IH901y-NoTOnU_b5bqcFfOzutKbWsInxQNZHVNABqnA/edit?usp=sharing',
+        detail: 'https://sites.google.com/view/msu-cyber-cafe-jae'
     },
     {
         iconUrl: threads,
@@ -138,6 +139,7 @@ export const projects = [
         name: 'Community Management',
         description: 'Focused on improving the overall quality and creating a comprehensive set of graphical elements to be used with the User Experience research.',
         link: 'https://cafe.naver.com/duellinks',
+        detail: ''
     },
     {
         iconUrl: estate,
@@ -145,12 +147,14 @@ export const projects = [
         name: 'DIAMBRA Logo Graphic Design',
         description: 'Focused on designing the company logo by studying and improving.',
         link: 'https://diambra.ai/',
+        detail: ''
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'MSU Like Lion Hackathon',
-        description: 'Project EDGE (Elders Delightful Game Entrance) to develop an accessible digital gaming platform to promote cognitive health and prevent dementia among older adults (aged 40-70).',
+        name: 'MSU M.A. Research Project',
+        description: 'Project EDGE (Elders Delightful Game Entrance) to develop an accessible digital gaming platform to promote cognitive health and prevent dementia among older adults (age around 60+).',
         link: 'https://shorturl.at/fps17',
+        detail: ''
     }
 ];
