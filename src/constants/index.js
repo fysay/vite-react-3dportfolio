@@ -139,7 +139,7 @@ export const projects = [
         name: 'Community Management',
         description: 'Focused on improving the overall quality and creating a comprehensive set of graphical elements to be used with the User Experience research.',
         link: 'https://cafe.naver.com/duellinks',
-        detail: ''
+        detail: 'https://sites.google.com/view/dl-onlinecommunity-jaewonlee/home'
     },
     {
         iconUrl: estate,
@@ -147,7 +147,7 @@ export const projects = [
         name: 'DIAMBRA Logo Graphic Design',
         description: 'Focused on designing the company logo by studying and improving.',
         link: 'https://diambra.ai/',
-        detail: ''
+        detail: 'https://sites.google.com/view/diambrarobot-jaewonlee/home'
     },
     {
         iconUrl: summiz,
